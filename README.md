@@ -1,5 +1,6 @@
 # Nature Remo API Sample
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2bc7ba5a10a541959c4ce054a17501f0)](https://app.codacy.com/app/mizo0203/nature-remo-sample?utm_source=github.com&utm_medium=referral&utm_content=mizo0203/nature-remo-sample&utm_campaign=Badge_Grade_Settings)
 [![Maintainability](https://api.codeclimate.com/v1/badges/fa464814de8f55e9a62a/maintainability)](https://codeclimate.com/github/mizo0203/nature-remo-sample/maintainability)
 
 [Nature Remo API](https://developer.nature.global) を Android アプリで使用する非公開サンプルプロジェクトです。
