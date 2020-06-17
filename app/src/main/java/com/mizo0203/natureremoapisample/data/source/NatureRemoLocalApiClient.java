@@ -17,8 +17,9 @@
 package com.mizo0203.natureremoapisample.data.source;
 
 
-import android.support.annotation.NonNull;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
 
 import com.mizo0203.natureremoapisample.data.IRSignal;
 

@@ -18,10 +18,11 @@ package com.mizo0203.natureremoapisample;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.mizo0203.natureremoapisample.panasonic.tv.RemoteControlButtonType;
 
@@ -88,6 +89,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         mPresenter.result(requestCode, resultCode);
+        super.onActivityResult(requestCode, resultCode, data);
     }
 
     @Override

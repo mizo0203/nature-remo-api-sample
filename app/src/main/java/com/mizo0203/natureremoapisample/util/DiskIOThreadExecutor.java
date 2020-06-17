@@ -1,6 +1,6 @@
 package com.mizo0203.natureremoapisample.util;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

@@ -1,6 +1,6 @@
 package com.mizo0203.natureremoapisample;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.mizo0203.natureremoapisample.data.source.NatureApiClient;
 import com.mizo0203.natureremoapisample.data.source.NatureRemoLocalApiClient;
