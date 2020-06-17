@@ -151,6 +151,8 @@ public class MainFragment extends Fragment implements MainContract.View, View.On
             case R.id.button_vol_down:
                 mPresenter.sendButtonEvent(RemoteControlButtonType.VOL_DOWN);
                 break;
+            default:
+                throw new IllegalArgumentException("v.getId(): " + v.getId());
         }
     }
 }
