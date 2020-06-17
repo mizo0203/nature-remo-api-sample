@@ -1,1 +1,2 @@
+rootProject.name = 'Nature Remo API Sample'
 include ':app'

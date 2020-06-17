@@ -1,5 +1,5 @@
 /*
- * Copyright 2018, Satoki Mizoguchi
+ * Copyright 2020, Satoki Mizoguchi
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,9 @@
 
 package com.mizo0203.natureremoapisample;
 
-import android.os.HandlerThread;
-import android.support.annotation.NonNull;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
 
 import com.mizo0203.natureremoapisample.data.IRSignal;
 import com.mizo0203.natureremoapisample.data.source.NatureRemoRepository;
@@ -41,19 +41,10 @@ public class MainPresenter implements MainContract.Presenter {
         mNatureRemoRepository = checkNotNull(natureRemoRepository, "natureRemoRepository cannot be null");
         mMainView = checkNotNull(mainView, "mainView cannot be null!");
         mMainView.setPresenter(this);
-
-        HandlerThread handlerThread = new HandlerThread("MainPresenter");
-        handlerThread.start();
     }
 
     @Override
     public void start() {
-    }
-
-    @Override
-    public void result(int requestCode, int resultCode) {
-        // If a task was successfully added, show snackbar
-        mMainView.showSuccess();
     }
 
     @Override
