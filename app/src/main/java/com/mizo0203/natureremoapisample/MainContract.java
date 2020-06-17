@@ -1,5 +1,5 @@
 /*
- * Copyright 2018, Satoki Mizoguchi
+ * Copyright 2020, Satoki Mizoguchi
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -35,8 +35,6 @@ public interface MainContract {
     }
 
     interface Presenter extends BasePresenter {
-
-        void result(int requestCode, int resultCode);
 
         void sendButtonEvent(@NonNull IRSignal irSignalMessage);
     }
