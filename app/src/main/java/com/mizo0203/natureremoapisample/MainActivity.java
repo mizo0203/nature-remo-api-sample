@@ -24,9 +24,6 @@ import com.mizo0203.natureremoapisample.util.ActivityUtils;
 
 public class MainActivity extends AppCompatActivity {
 
-    // TODO: (optional) Nature API を使用する場合は TOKEN をセット
-    private static final String TOKEN = "";
-
     // TODO: NATURE_REMO_IP_ADDRESS をセット
     private static final String NATURE_REMO_IP_ADDRESS = "192.168.1.23";
 
@@ -45,6 +42,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Create the presenter
-        new MainPresenter(Injection.provideNatureRemoRepository(TOKEN, NATURE_REMO_IP_ADDRESS), mainFragment);
+        new MainPresenter(Injection.provideNatureRemoRepository(NATURE_REMO_IP_ADDRESS), mainFragment);
     }
 }
